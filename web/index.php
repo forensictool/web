@@ -1,11 +1,12 @@
-﻿<head>
-	<title>Система компьютерной экспертизы Coex</title>
+﻿<?php include("lang.php"); ?>
+<html lang="<?php echo $lang; ?>">
+<head>
+	<title><?php TR(HEADER_TITLE); ?></title>
 	
 	<!--[if lt IE 9]>
 		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
-	<link rel="stylesheet" href="style.css"/>
-	<link rel="stylesheet" href="download.css"/>
+	<link rel="stylesheet" href="css/main.css?ver=1"/>
 	<link rel="stylesheet" href="owl.carousel.css"/>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 	<script src="owl.carousel.min.js"></script>
@@ -13,28 +14,35 @@
 <body class="site-body">
 	<main class="site-main">
 		<header class="site-header">
-			<a href="/" title="Главная" class="logo">
-				<h1>Система <span>Coex</span></h1>
-			</a>
 			<nav class="site-menu">
-				<a href="#capa" class="site-part">Возможности</a>
-				<a href="#install" class="site-part">Установка</a>
-				<a href="#consist" class="site-part">Архитектура</a>
-				<a href="#about" class="site-part">Информация о нас</a>
+				<a href="#capa" class="site-part"><?php TR(MENU_CAPABILITIES); ?></a>
+				<a href="#install" class="site-part"><?php TR(MENU_INSTALL); ?></a>
+				<a href="#consist" class="site-part"><?php TR(MENU_ARCHITETURE); ?></a>
+				<a href="#about" class="site-part"><?php TR(MENU_ABOUT); ?></a>
+				<select class="combobox-lang" onchange="window.location.href = '?lang=' + this.value;">
+					<?php
+						foreach($langs as $l => $v){
+							echo '<option value="'.$l.'" '.($lang == $l ? 'selected=true' : '').'>'.$v.'</option>';
+						}
+					?>
+				</select>
 			</nav>
 		</header>
 		
 		<section id="info">
 			<div class="sect-block">
-				<h2>Что такое Coex</h2>
-				<div class="description">Программная система, разработанная для проведения компьютерной экспертизы в рамках судебного делопроизводства и призванная облегчить сбор информации об исследуемом компьютере.</div>
+				
+				<h2><?php TR(COEX_WHAT); ?></h2>
+				<div class="description"><?php TR(COEX_DESCRIPTION); ?></div>
 			</div>
 		</section>
 		
+		<a href="?" class="logo"></a>
+		
 		<section id="capa">
 			<div class="sect-block">
-				<h2>Возможности</h2>
-				<div class="description">Наш програмный комплекс собирает информацию со множества источников на исследуемой машине.
+				<h2><?php TR(MENU_CAPABILITIES); ?></h2>
+				<div class="description"><?php TR(CAPABILITIES_INFO); ?>
 				</div>
 				<div class="modules flex">
 					<div class="module">
@@ -88,7 +96,7 @@
 		
 		<section id="install">
 			<div class="sect-block">
-				<h2>Установка</h2>
+				<h2><?php TR(MENU_INSTALL); ?></h2>
 				<div class="install-block flex">
 					<div class="block">
 						<a href="http://rep.coex.su/install.sh" class="download-button">
@@ -96,15 +104,15 @@
 							<div>Download <br/> (Install.sh v0.1)</div>
 						</a>
 						<br/>
-						Скачать и запустить.
+						<?php TR(DOWNLOAD_AND_RUN); ?>
 					</div>
 					<div class="block">
-						<a href="http://gitlab.keva.su/" class="git-url">
-							<img src="gitlab.png"/>
-							<span>Проект на GitLab</span>
+						<a href="https://github.com/tusur-coex/" class="git-url">
+							<img width=100 height=100 src="images/Octocat.png"/>
+							<span>GitHub.com</span>
 						</a>
 						<br/>
-						Клонировать репозитарий и собрать самостоятельно.
+						<?php TR(CLONE_AND_BUILD); ?>
 					</div>
 				</div>
 			</div>
@@ -112,7 +120,7 @@
 		
 		<section id="consist">
 			<div class="sect-block">
-				<h2>Архитектура системы</h2>
+				<h2><?php TR(ARCHITETURE_OF_SYSTEM); ?></h2>
 				<div class="big-table">
 					<div class="bft_coex">Coex</div>
 					<div class="bft_system">Система плагинов</div>
@@ -129,7 +137,7 @@
 		</section>
         <section id="news">
             <div class="news-block">
-                <h2>Новоcти проекта</h2>
+                <h2><?php TR(NEWS_OF_PROJECT); ?></h2>
                 <div class="news-list">
 <script type="text/javascript" src="//vk.com/js/api/openapi.js?121"></script>
 
@@ -156,7 +164,7 @@ VK.Widgets.Group("vk_groups", {mode: 2, width: "800", height: "400"}, 109777900)
 				<div class="block">
 					<h4>О нас</h4>
 					<div class="credits">
-						Сделано с любовью на кафедре КИБЭВС ТУСУР.
+						Сделано на кафедре КИБЭВС в ТУСУР группой ГПО.
 					</div>
 				</div>
 				<div class="block">
@@ -184,3 +192,4 @@ $(document).ready(function(){
 });
 </script>
 </body>
+</html>
