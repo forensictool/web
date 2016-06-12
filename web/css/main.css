@@ -465,3 +465,34 @@ a.download-button:hover .download-icon:after
 	top: 20px;
 	left: 20px;
 }
+
+.module-block, .module-download{
+	display: block;
+	width: 100%;
+}
+
+.module-download{
+	padding: 10px;
+}
+
+.module-logo{
+	padding: 10px;
+}
+
+.module-name{
+	padding: 10px;
+	display: inline-block;
+	font: bold 22px/1.2 'Segoe UI', Tahoma, Geneva, sans-serif;
+}
+
+.module-description{
+	padding: 10px;
+	display: inline-block;
+}
+
+.module-lastest-version{
+	padding: 10px;
+	display: inline-block;
+}
+
+

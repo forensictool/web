@@ -46,49 +46,54 @@
 				</div>
 				<div class="modules flex">
 					<div class="module">
-						<img src="icon/chrome.png" class="icon">
+						<img src="images/plugins/chrome.png" class="icon">
 						<h3><?php TR(COEX_CHROME_MODULE); ?></h3>
 						<div class="decr-mod"><?php TR(COEX_CHROME_MODULE_DESCRIPTION); ?></div>
 					</div>
 					<div class="module">
-						<img src="icon/images.png" class="icon">
+						<img src="images/plugins/imagesverifier.png" class="icon">
 						<h3><?php TR(COEX_IMAGEVERIFIER_MODULE); ?></h3>
 						<div class="decr-mod"><?php TR(COEX_IMAGEVERIFIER_MODULE_DESCRIPTION); ?></div>
 					</div>
 					<div class="module">
-						<img src="icon/search.png" class="icon">
+						<img src="images/plugins/searchprogram.png" class="icon">
 						<h3><?php TR(COEX_SEARCHPROGRAM_MODULE); ?></h3>
 						<div class="decr-mod"><?php TR(COEX_SEARCHPROGRAM_MODULE_DESCRIPTION); ?></div>
 					</div>
 					<div class="module">
-						<img src="icon/outlook.png" class="icon">
+						<img src="images/plugins/outlook.png" class="icon">
 						<h3><?php TR(COEX_OUTLOOK_MODULE); ?></h3>
 						<div class="decr-mod"><?php TR(COEX_OUTLOOK_MODULE_DESCRIPTION); ?></div>
 					</div>
 					<div class="module">
-						<img src="icon/pidgin.png" class="icon">
+						<img src="images/plugins/pidgin.png" class="icon">
 						<h3><?php TR(COEX_PIDGIN_MODULE); ?></h3>
 						<div class="decr-mod"><?php TR(COEX_PIDGIN_MODULE_DESCRIPTION); ?></div>
 					</div>
 					<div class="module">
-						<img src="icon/icq.png" class="icon">
+						<img src="images/plugins/icq.png" class="icon">
 						<h3><?php TR(COEX_ICQ_MODULE); ?></h3>
 						<div class="decr-mod"><?php TR(COEX_ICQ_MODULE_DESCRIPTION); ?></div>
 					</div>
 					<div class="module">
-						<img src="icon/sys.png" class="icon">
+						<img src="images/plugins/systemlog.png" class="icon">
 						<h3><?php TR(COEX_SYSTEMLOG_MODULE); ?></h3>
 						<div class="decr-mod"><?php TR(COEX_SYSTEMLOG_MODULE_DESCRIPTION); ?></div>
 					</div>
 					<div class="module">
-						<img src="icon/fire.png" class="icon">
+						<img src="images/plugins/firefox.png" class="icon">
 						<h3><?php TR(COEX_FIREFOX_MODULE); ?></h3>
 						<div class="decr-mod"><?php TR(COEX_FIREFOX_MODULE_DESCRIPTION); ?></div>
 					</div>
 					<div class="module">
-						<img src="icon/arch.png" class="icon">
+						<img src="images/plugins/searcharchivies.png" class="icon">
 						<h3><?php TR(COEX_ARCHIVE_MODULE); ?></h3>
 						<div class="decr-mod"><?php TR(COEX_ARCHIVE_MODULE_DESCRIPTION); ?></div>
+					</div>
+					<div class="module">
+						<img src="images/plugins/searchgitrepo.png" class="icon">
+						<h3><?php TR(COEX_SEARCH_GIT_REPO_MODULE); ?></h3>
+						<div class="decr-mod"><?php TR(COEX_SEARCH_GIT_REPO_MODULE_DESCRIPTION); ?></div>
 					</div>
 				</div>			
 			</div>
@@ -114,7 +119,43 @@
 						<br/>
 						<?php TR(CLONE_AND_BUILD); ?>
 					</div>
+					
 				</div>
+				<!-- 
+				<div class="install-block flex">
+					<div class="module-block">
+						<img src="images/plugins/searchgitrepo.png" align="left" class="module-logo">
+						<div class="module-name"><?php TR(COEX_SEARCH_GIT_REPO_MODULE); ?></div><br>
+						<div class="module-description"><?php TR(COEX_SEARCH_GIT_REPO_MODULE_DESCRIPTION); ?></div><br>
+						<div class="module-lastest-version">Latest version: v0.1.1</div>
+					</div>
+					<div class="module-download">
+						Sources
+						<ul>
+							<li><a href="https://github.com/tusur-coex/coex-plugin-task-searchgitrepo/archive/v0.1.1.zip">https://github.com/tusur-coex/coex-plugin-task-searchgitrepo/archive/v0.1.1.zip</a></li>
+							<li><a href="https://github.com/tusur-coex/coex-plugin-task-searchgitrepo/archive/v0.1.1.tar.gz">https://github.com/tusur-coex/coex-plugin-task-searchgitrepo/archive/v0.1.1.tar.gz</a></li>
+						</ul>
+						Windows
+						<ul>
+							<li><a href="setup-coex-searchgitrepo-ui-v0.1.1.exe">setup-coex-searchgitrepo-ui-v0.1.1.exe</a> - Application with UI</li>
+							<li><a href="setup-coex-searchgitrepo-v0.1.1.exe">setup-coex-searchgitrepo-v0.1.1.exe</a> - Console Application</li>
+							<li><a href="setup-coex-plugin-task-searchgitrepo-v0.1.1.exe">setup-coex-plugin-task-searchgitrepo-v0.1.1.exe</a> - Library</li>
+						</ul>
+						Ubuntu
+						<ul>
+							<li><a href="coex-searchgitrepo-ui-v0.1.1.deb">coex-searchgitrepo-ui-v0.1.1.deb</a> - Application with UI</li>
+							<li><a href="coex-searchgitrepo-v0.1.1.deb">coex-searchgitrepo-v0.1.1.deb</a> - Console Application</li>
+							<li><a href="coex-plugin-task-searchgitrepo-v0.1.1.deb">coex-plugin-task-searchgitrepo-v0.1.1.deb</a> - Library</li>
+						</ul>
+						Mac
+						<ul>
+							<li><a href="coex-searchgitrepo-ui-v0.1.1.img">coex-searchgitrepo-ui-v0.1.1.img</a> - Application with UI</li>
+							<li><a href="coex-searchgitrepo-v0.1.1.img">coex-searchgitrepo-v0.1.1.img</a> - Console Application</li>
+							<li><a href="coex-plugin-task-searchgitrepo-v0.1.1.img">coex-plugin-task-searchgitrepo-v0.1.1.img</a> - Library</li>
+						</ul>
+					</div>
+				</div>
+				-->
 			</div>
 		</section>
 		
@@ -125,7 +166,6 @@
 					<div class="bft_coex">Coex</div>
 					<div class="bft_system"><?php TR(ARCHITECTURE_SYSTEM_OF_PLUGINS); ?></div>
 					<div class="bft_analys"><?php TR(ARCHITECTURE_DATA_ANALISIS); ?></div>
-					
 					<div class="bft_module"><?php TR(ARCHITECTURE_MODUL_N); ?> 1</div>
 					<div class="bft_module"><?php TR(ARCHITECTURE_MODUL_N); ?> 2</div>
 					<div class="bft_module"><?php TR(ARCHITECTURE_MODUL_N); ?> 3</div>

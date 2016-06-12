@@ -30,6 +30,8 @@ define("COEX_FIREFOX_MODULE", "Firefox module");
 define("COEX_FIREFOX_MODULE_DESCRIPTION", "Collects browsing history eponymous browser.");
 define("COEX_ARCHIVE_MODULE", "Archive module");
 define("COEX_ARCHIVE_MODULE_DESCRIPTION", "Searches for files and displays information about them.");
+define("COEX_SEARCH_GIT_REPO_MODULE", "SearchGitRepo модуль");
+define("COEX_SEARCH_GIT_REPO_MODULE_DESCRIPTION", "Осуществляет поиск Git-репозиториев и выводит информацию о них.");
 define("ARCHITECTURE_DESCRIPTION", "The modularity of the whole system allows you to quickly configure it under the required tasks. Each module operates independently of the others, the result of driving into a single report at the end of the system.");
 define("ARCHITECTURE_SYSTEM_OF_PLUGINS", "Plug-in system");
 define("ARCHITECTURE_DATA_ANALISIS", "Data analysis");
