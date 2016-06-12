@@ -17,7 +17,7 @@
 			<nav class="site-menu">
 				<a href="#capa" class="site-part"><?php TR(MENU_CAPABILITIES); ?></a>
 				<a href="#install" class="site-part"><?php TR(MENU_INSTALL); ?></a>
-				<a href="#consist" class="site-part"><?php TR(MENU_ARCHITETURE); ?></a>
+				<a href="#consist" class="site-part"><?php TR(MENU_ARCHITECTURE); ?></a>
 				<a href="#about" class="site-part"><?php TR(MENU_ABOUT); ?></a>
 				<select class="combobox-lang" onchange="window.location.href = '?lang=' + this.value;">
 					<?php
@@ -47,48 +47,48 @@
 				<div class="modules flex">
 					<div class="module">
 						<img src="icon/chrome.png" class="icon">
-						<h3>Chrome модуль</h3>
-						<div class="decr-mod">Собирает базу паролей, журнал посещаемости, список расширений и настройки браузера.</div>
+						<h3><?php TR(COEX_CHROME_MODULE); ?></h3>
+						<div class="decr-mod"><?php TR(COEX_CHROME_MODULE_DESCRIPTION); ?></div>
 					</div>
 					<div class="module">
 						<img src="icon/images.png" class="icon">
-						<h3>ImageVerifier модуль</h3>
-						<div class="decr-mod">Осуществляет поиск изображений и проверяет их на возможноне соответствие стегоконтейнеру.</div>
+						<h3><?php TR(COEX_IMAGEVERIFIER_MODULE); ?></h3>
+						<div class="decr-mod"><?php TR(COEX_IMAGEVERIFIER_MODULE_DESCRIPTION); ?></div>
 					</div>
 					<div class="module">
 						<img src="icon/search.png" class="icon">
-						<h3>SearchProgram модуль</h3>
-						<div class="decr-mod">Ищет следы установленных и удалённых программ в исследуемой системе.</div>
+						<h3><?php TR(COEX_SEARCHPROGRAM_MODULE); ?></h3>
+						<div class="decr-mod"><?php TR(COEX_SEARCHPROGRAM_MODULE_DESCRIPTION); ?></div>
 					</div>
 					<div class="module">
 						<img src="icon/outlook.png" class="icon">
-						<h3>Outlook модуль</h3>
-						<div class="decr-mod">Находит и собирает переписку из почтового клиента Outlook Express.</div>
+						<h3><?php TR(COEX_OUTLOOK_MODULE); ?></h3>
+						<div class="decr-mod"><?php TR(COEX_OUTLOOK_MODULE_DESCRIPTION); ?></div>
 					</div>
 					<div class="module">
 						<img src="icon/pidgin.png" class="icon">
-						<h3>Pidgin модуль</h3>
-						<div class="decr-mod">Собирает переписку пользователя и список его контактов, журналы мессенджера.</div>
+						<h3><?php TR(COEX_PIDGIN_MODULE); ?></h3>
+						<div class="decr-mod"><?php TR(COEX_PIDGIN_MODULE_DESCRIPTION); ?></div>
 					</div>
 					<div class="module">
 						<img src="icon/icq.png" class="icon">
-						<h3>ICQ модуль</h3>
-						<div class="decr-mod">Собирает список контактов пользователя мессенджера.</div>
+						<h3><?php TR(COEX_ICQ_MODULE); ?></h3>
+						<div class="decr-mod"><?php TR(COEX_ICQ_MODULE_DESCRIPTION); ?></div>
 					</div>
 					<div class="module">
 						<img src="icon/sys.png" class="icon">
-						<h3>SystemLog модуль</h3>
-						<div class="decr-mod">Собирает журналы операционной системы.</div>
+						<h3><?php TR(COEX_SYSTEMLOG_MODULE); ?></h3>
+						<div class="decr-mod"><?php TR(COEX_SYSTEMLOG_MODULE_DESCRIPTION); ?></div>
 					</div>
 					<div class="module">
 						<img src="icon/fire.png" class="icon">
-						<h3>FireFox модуль</h3>
-						<div class="decr-mod">Собирает журнал посещений одноименного браузера.</div>
+						<h3><?php TR(COEX_FIREFOX_MODULE); ?></h3>
+						<div class="decr-mod"><?php TR(COEX_FIREFOX_MODULE_DESCRIPTION); ?></div>
 					</div>
 					<div class="module">
 						<img src="icon/arch.png" class="icon">
-						<h3>Archive модуль</h3>
-						<div class="decr-mod">Осуществляет поиск архивов и выводит информацию о них.</div>
+						<h3><?php TR(COEX_ARCHIVE_MODULE); ?></h3>
+						<div class="decr-mod"><?php TR(COEX_ARCHIVE_MODULE_DESCRIPTION); ?></div>
 					</div>
 				</div>			
 			</div>
@@ -107,7 +107,7 @@
 						<?php TR(DOWNLOAD_AND_RUN); ?>
 					</div>
 					<div class="block">
-						<a href="https://github.com/tusur-coex/" class="git-url">
+						<a href="https://github.com/tusur-coex/coex" class="git-url">
 							<img width=100 height=100 src="images/Octocat.png"/>
 							<span>GitHub.com</span>
 						</a>
@@ -120,19 +120,19 @@
 		
 		<section id="consist">
 			<div class="sect-block">
-				<h2><?php TR(ARCHITETURE_OF_SYSTEM); ?></h2>
+				<h2><?php TR(ARCHITECTURE_OF_SYSTEM); ?></h2>
 				<div class="big-table">
 					<div class="bft_coex">Coex</div>
-					<div class="bft_system">Система плагинов</div>
-					<div class="bft_analys">Анализ данных</div>
+					<div class="bft_system"><?php TR(ARCHITECTURE_SYSTEM_OF_PLUGINS); ?></div>
+					<div class="bft_analys"><?php TR(ARCHITECTURE_DATA_ANALISIS); ?></div>
 					
-					<div class="bft_module">Модуль 1</div>
-					<div class="bft_module">Модуль 2</div>
-					<div class="bft_module">Модуль 3</div>
+					<div class="bft_module"><?php TR(ARCHITECTURE_MODUL_N); ?> 1</div>
+					<div class="bft_module"><?php TR(ARCHITECTURE_MODUL_N); ?> 2</div>
+					<div class="bft_module"><?php TR(ARCHITECTURE_MODUL_N); ?> 3</div>
 					<div class="bft_module">...</div>
-					<div class="bft_module">Модуль n</div>					
+					<div class="bft_module"><?php TR(ARCHITECTURE_MODUL_N); ?> n</div>					
 				</div>
-				<div class="description">Модульность всей системы позволяет оперативно настраивать ее под необходимые задачи. Каждый модуль работает независимо от других, результат работы сводит в единый отчет по окончанию работы системы.</div>
+				<div class="description">  <?php TR(ARCHITECTURE_DESCRIPTION); ?> </div>
 			</div>
 		</section>
         <section id="news">
@@ -154,29 +154,29 @@ VK.Widgets.Group("vk_groups", {mode: 2, width: "800", height: "400"}, 109777900)
 		<div class="sect-block">
 			<div class="flex">
 				<div class="block">
-					<h4>Контакты</h4>
+					<h4><?php TR(CONTACTS); ?></h4>
 					<div class="credits">
-						Для связи с нами, воспользуйтесь средствами, предложенными ниже.
+						<?php TR(CONTACTS_DESCRIPTION); ?>
 						<br/>
-						<a href="https://vk.com/coex_su">VK</a> <a href="mailto:spam@coex.su">E-Mail</a>
+						<a href="https://vk.com/coex_su">VK</a> <a href="mailto:fox.user.3@gmail.com">E-Mail</a>
 					</div>
 				</div>
 				<div class="block">
-					<h4>О нас</h4>
+					<h4><?php TR(ABOUT_US); ?></h4>
 					<div class="credits">
-						Сделано на кафедре КИБЭВС в ТУСУР группой ГПО.
+						<?php TR(MADE_IN); ?>
 					</div>
 				</div>
 				<div class="block">
-					<h4>Отказ от отвественности</h4>
+					<h4><?php TR(DENIAL_OF_RESPONSIBILITY); ?></h4>
 					<div class="credits">
-						Используемые медиафайлы были взяты из сети Интернет, права данные файлы принадлежат их законным владельцам.
+						<?php TR(DENIAL_OF_RESPONSIBILITY_DESCRIPTION); ?>
 					</div>
 				</div>
 			</div>
 			<div class="copyrights flex">
-				<a href="">Лицензионное соглашение</a>
-				<span>© 2016, keva</span>
+				<a href=""> <?php TR(LICENSE_AGREEMENT); ?></a>
+				<span>© 2012-2016, keva</span>
 			</div>
 		</div>
 	</footer>
