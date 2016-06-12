@@ -37,7 +37,7 @@ define("ARCHITECTURE_SYSTEM_OF_PLUGINS", "Plug-in");
 define("ARCHITECTURE_DATA_ANALISIS", "Datenanalyse");
 define("ARCHITECTURE_MODUL_N", "Modul");
 define("CONTACTS", "Kontakt");
-define("CONTACTS_DESCRIPTION", "Verwenden Sie bitte die vorgeschlagen Tools für eine Kontaktaufnahme.");
+define("CONTACTS_DESCRIPTION", "Verwenden Sie bitte die vorgeschlagenen Tools für eine Kontaktaufnahme.");
 define("ABOUT_US", "Über uns");
 define("MADE_IN", "Hergestellt in der Abteilung KIBEVS TUSUR der GAP-Gruppe.");
 define("DENIAL_OF_RESPONSIBILITY", "Urheberrecht");
