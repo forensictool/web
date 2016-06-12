@@ -39,7 +39,7 @@ define("ARCHITECTURE_MODUL_N", "Module");
 define("CONTACTS", "Контакты");
 define("CONTACTS_DESCRIPTION", "To contact us, please use the tools proposed below.");
 define("ABOUT_US", "About us");
-define("MADE_IN", "Made on a chair in KIBEVS TUSUR GAP group.");
+define("MADE_IN", "Made in the Department KIBEVS TUSUR the GAP group.");
 define("DENIAL_OF_RESPONSIBILITY", "Denial of responsibility");
 define("DENIAL_OF_RESPONSIBILITY_DESCRIPTION", "Media used were taken from the Internet, the right data files belong to their rightful owners.");
 define("LICENSE_AGREEMENT", "License agreement");

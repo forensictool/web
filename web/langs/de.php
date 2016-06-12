@@ -2,7 +2,7 @@
 
 define("HEADER_TITLE", "Computer-Forensik-System Coex");
 define("MENU_CAPABILITIES", "Einsatzmöglichkeiten");
-define("MENU_INSTALL", "Installieren"); //OR Installation
+define("MENU_INSTALL", "Installation");
 define("MENU_ARCHITECTURE", "Architektur");
 define("MENU_ABOUT", "Über uns");
 define("ARCHITECTURE_OF_SYSTEM", "Systemarchitektur");
@@ -30,7 +30,7 @@ define("COEX_FIREFOX_MODULE", "Firefox-Modul");
 define("COEX_FIREFOX_MODULE_DESCRIPTION", "Sammelt den Browserverlauf.");
 define("COEX_ARCHIVE_MODULE", "Archiv-Modul");
 define("COEX_ARCHIVE_MODULE_DESCRIPTION", "Sucht nach Dateien und zeigt deren Informationen.");
-define("COEX_SEARCH_GIT_REPO_MODULE", "SearchGitRepo модуль"); //no chance bro ;)
+define("COEX_SEARCH_GIT_REPO_MODULE", "SearchGitRepo-Modul");
 define("COEX_SEARCH_GIT_REPO_MODULE_DESCRIPTION", "Осуществляет поиск Git-репозиториев и выводит информацию о них.");
 define("ARCHITECTURE_DESCRIPTION", "Durch die Modularität des gesamten Systems kann die Software für die anfallenden Aufgaben schnell konfiguriert werden. Jedes Modul arbeitet unabhängig von den anderen. Das Ergebnis wird am Ende in einem einzigen Bericht zusammengefasst.");
 define("ARCHITECTURE_SYSTEM_OF_PLUGINS", "Plug-in");
@@ -39,7 +39,7 @@ define("ARCHITECTURE_MODUL_N", "Modul");
 define("CONTACTS", "Kontakt");
 define("CONTACTS_DESCRIPTION", "Verwenden Sie bitte die vorgeschlagen Tools für eine Kontaktaufnahme.");
 define("ABOUT_US", "Über uns");
-define("MADE_IN", "Hergestellt in der Abteilung KIBEVS TUSUR der GAP-Gruppe."); // please check the name and the englisch version
+define("MADE_IN", "Hergestellt in der Abteilung KIBEVS TUSUR der GAP-Gruppe.");
 define("DENIAL_OF_RESPONSIBILITY", "Urheberrecht");
 define("DENIAL_OF_RESPONSIBILITY_DESCRIPTION", "Die verwendeten Medien/Bilder stammen aus dem Internet. Sie sind Eigentum ihrer rechtmäßigen Eigentümer.");//no garanty for law-security
 define("LICENSE_AGREEMENT", "Lizenzvereinbarung");
