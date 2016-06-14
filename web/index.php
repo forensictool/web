@@ -89,6 +89,21 @@
 						<img src="images/plugins/searcharchivies.png" class="icon">
 						<h3><?php TR(COEX_ARCHIVE_MODULE); ?></h3>
 						<div class="decr-mod"><?php TR(COEX_ARCHIVE_MODULE_DESCRIPTION); ?></div>
+					</div>					
+					<div class="module">
+						<img src="images/plugins/skype.png" class="icon">
+						<h3><?php TR(COEX_SKYPE_MODULE); ?></h3>
+						<div class="decr-mod"><?php TR(COEX_SKYPE_MODULE_DESCRIPTION); ?></div>
+					</div>
+					<div class="module">
+						<img src="images/plugins/thunderbird.png" class="icon">
+						<h3><?php TR(COEX_THUNDERBIRD_MODULE); ?></h3>
+						<div class="decr-mod"><?php TR(COEX_THUNDERBIRD_MODULE_DESCRIPTION); ?></div>
+					</div>					
+					<div class="module">
+						<img src="images/plugins/viber.png" class="icon">
+						<h3><?php TR(COEX_VIBER_MODULE); ?></h3>
+						<div class="decr-mod"><?php TR(COEX_VIBER_MODULE_DESCRIPTION); ?></div>
 					</div>
 					<div class="module">
 						<img src="images/plugins/searchgitrepo.png" class="icon">
