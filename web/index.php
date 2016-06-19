@@ -134,20 +134,7 @@
 						</ul>
 					</div>
 				</div>
-				<div class="install-block">
-					<div class="module-name">coex-cli (v0.2.*)</div>
-					<div class="module-description"><i>The Application for run all tasks</i></div>
-					<div class="module-download">
-						Linux (Ubuntu):
-						<ul>
-							<li><a target="_blank" href="distribute/coex-cli-0.2.0_amd64.deb">coex-cli-0.2.0_amd64.deb</a> (16K)</li>
-						</ul>
-						Sources:
-						<ul>
-							<li><a target="_blank" href="https://github.com/tusur-coex/coex-core">https://github.com/tusur-coex/coex-core</a></li>
-						</ul>
-					</div>
-				</div>
+				<?php include('distribute.php') ?>
 			</div>
 		</section>
 		
