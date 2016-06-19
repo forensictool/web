@@ -22,22 +22,40 @@ $ditribute = array(
 		"sources" => "https://github.com/tusur-coex/coex-plugin-detect-ubuntu"
 	),
 	array(
+		"name" => "coex-skype",
+		"description" => "The Console Application. Collect a list of contacts, users correspondence, information about calls and chats.",
+		"version" => "v0.2.*",
+		"sources" => "https://github.com/tusur-coex/coex-plugin-task-skype"
+	),
+	array(
 		"name" => "libcoex-plugin-task-skype",
 		"description" => "Collect a list of contacts, users correspondence, information about calls and chats.",
 		"version" => "v0.2.*",
 		"sources" => "https://github.com/tusur-coex/coex-plugin-task-skype"
 	),
 	array(
-		"name" => "libcoex-plugin-task-icq",
-		"description" => "Collect a list of user messenger contacts.",
+		"name" => "coex-searchgitrepo",
+		"description" => "The Console Application for search git repository in file system",
 		"version" => "v0.2.*",
-		"sources" => "https://github.com/tusur-coex/coex-plugin-task-icq"
+		"sources" => "https://github.com/tusur-coex/coex-plugin-task-searchgitrepo"
 	),
 	array(
 		"name" => "libcoex-plugin-task-searchgitrepo",
 		"description" => "Plugin for search git repository in file system",
 		"version" => "v0.2.*",
 		"sources" => "https://github.com/tusur-coex/coex-plugin-task-searchgitrepo"
+	),
+	array(
+		"name" => "coex-icq",
+		"description" => "The Console Application. Collect a list of user messenger contacts.",
+		"version" => "v0.2.*",
+		"sources" => "https://github.com/tusur-coex/coex-plugin-task-icq"
+	),
+	array(
+		"name" => "libcoex-plugin-task-icq",
+		"description" => "Collect a list of user messenger contacts.",
+		"version" => "v0.2.*",
+		"sources" => "https://github.com/tusur-coex/coex-plugin-task-icq"
 	),
 );
 
