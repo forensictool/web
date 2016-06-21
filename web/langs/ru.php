@@ -1,6 +1,6 @@
 <?php
 
-define("HEADER_TITLE", "Система компьютерной экспертизы Coex");
+define("HEADER_TITLE", "COEX-Software");
 define("MENU_CAPABILITIES", "Возможности");
 define("MENU_INSTALL", "Установка");
 define("MENU_ARCHITECTURE", "Архитектура");

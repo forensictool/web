@@ -109,7 +109,6 @@
 						<img src="images/plugins/searchgitrepo.png" class="icon">
 						<h3><?php TR(COEX_SEARCH_GIT_REPO_MODULE); ?></h3>
 						<div class="decr-mod"><?php TR(COEX_SEARCH_GIT_REPO_MODULE_DESCRIPTION); ?></div>
-						<div><center>Download</center></div>
 					</div>
 				</div>			
 			</div>
