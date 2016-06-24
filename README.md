@@ -1,3 +1,3 @@
-# coex-site
+# forensictool/web
 
 Official project website
