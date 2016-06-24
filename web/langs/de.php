@@ -1,6 +1,6 @@
 <?php
 
-define("HEADER_TITLE", "Computer-Forensik-System Coex");
+define("HEADER_TITLE", "COEX-Software");
 define("MENU_CAPABILITIES", "Einsatzmöglichkeiten");
 define("MENU_INSTALL", "Installation");
 define("MENU_ARCHITECTURE", "Architektur");

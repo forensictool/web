@@ -117,60 +117,23 @@
 		<section id="install">
 			<div class="sect-block">
 				<h2><?php TR(MENU_INSTALL); ?></h2>
-				<div class="install-block flex">
-					<div class="block">
-						<a href="http://rep.coex.su/install.sh" class="download-button">
-							<span class="download-icon"></span>
-							<div>Download <br/> (Install.sh v0.1)</div>
-						</a>
-						<br/>
-						<?php TR(DOWNLOAD_AND_RUN); ?>
-					</div>
-					<div class="block">
-						<a href="https://github.com/tusur-coex/coex" class="git-url">
-							<img width=100 height=100 src="images/Octocat.png"/>
-							<span>GitHub.com</span>
-						</a>
-						<br/>
-						<?php TR(CLONE_AND_BUILD); ?>
-					</div>
-					
-				</div>
-				<!-- 
-				<div class="install-block flex">
-					<div class="module-block">
-						<img src="images/plugins/searchgitrepo.png" align="left" class="module-logo">
-						<div class="module-name"><?php TR(COEX_SEARCH_GIT_REPO_MODULE); ?></div><br>
-						<div class="module-description"><?php TR(COEX_SEARCH_GIT_REPO_MODULE_DESCRIPTION); ?></div><br>
-						<div class="module-lastest-version">Latest version: v0.1.1</div>
-					</div>
+				<div class="install-block">
+					<div class="module-name"><?php TR(DOWNLOAD_AND_RUN); ?></div>
 					<div class="module-download">
-						Sources
 						<ul>
-							<li><a href="https://github.com/tusur-coex/coex-plugin-task-searchgitrepo/archive/v0.1.1.zip">https://github.com/tusur-coex/coex-plugin-task-searchgitrepo/archive/v0.1.1.zip</a></li>
-							<li><a href="https://github.com/tusur-coex/coex-plugin-task-searchgitrepo/archive/v0.1.1.tar.gz">https://github.com/tusur-coex/coex-plugin-task-searchgitrepo/archive/v0.1.1.tar.gz</a></li>
-						</ul>
-						Windows
-						<ul>
-							<li><a href="setup-coex-searchgitrepo-ui-v0.1.1.exe">setup-coex-searchgitrepo-ui-v0.1.1.exe</a> - Application with UI</li>
-							<li><a href="setup-coex-searchgitrepo-v0.1.1.exe">setup-coex-searchgitrepo-v0.1.1.exe</a> - Console Application</li>
-							<li><a href="setup-coex-plugin-task-searchgitrepo-v0.1.1.exe">setup-coex-plugin-task-searchgitrepo-v0.1.1.exe</a> - Library</li>
-						</ul>
-						Ubuntu
-						<ul>
-							<li><a href="coex-searchgitrepo-ui-v0.1.1.deb">coex-searchgitrepo-ui-v0.1.1.deb</a> - Application with UI</li>
-							<li><a href="coex-searchgitrepo-v0.1.1.deb">coex-searchgitrepo-v0.1.1.deb</a> - Console Application</li>
-							<li><a href="coex-plugin-task-searchgitrepo-v0.1.1.deb">coex-plugin-task-searchgitrepo-v0.1.1.deb</a> - Library</li>
-						</ul>
-						Mac
-						<ul>
-							<li><a href="coex-searchgitrepo-ui-v0.1.1.img">coex-searchgitrepo-ui-v0.1.1.img</a> - Application with UI</li>
-							<li><a href="coex-searchgitrepo-v0.1.1.img">coex-searchgitrepo-v0.1.1.img</a> - Console Application</li>
-							<li><a href="coex-plugin-task-searchgitrepo-v0.1.1.img">coex-plugin-task-searchgitrepo-v0.1.1.img</a> - Library</li>
+							<li><a target="_blank" href="distribute/install.sh">install.sh</a></li>
 						</ul>
 					</div>
 				</div>
-				-->
+				<div class="install-block">
+					<div class="module-name"><?php TR(CLONE_AND_BUILD); ?></div>
+					<div class="module-download">
+						<ul>
+							<li><a target="_blank" href="https://github.com/tusur-coex/coex">https://github.com/tusur-coex/coex</a></li>
+						</ul>
+					</div>
+				</div>
+				<?php include('distribute.php') ?>
 			</div>
 		</section>
 		
