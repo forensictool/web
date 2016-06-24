@@ -32,8 +32,8 @@
 		<section id="info">
 			<div class="sect-block">
 				
-				<h2><?php TR(COEX_WHAT); ?></h2>
-				<div class="description"><?php TR(COEX_DESCRIPTION); ?></div>
+				<h2><?php TR(FORENSICTOOL_WHAT); ?></h2>
+				<div class="description"><?php TR(FORENSICTOOL_DESCRIPTION); ?></div>
 			</div>
 		</section>
 		
@@ -47,68 +47,68 @@
 				<div class="modules flex">
 					<div class="module">
 						<img src="images/plugins/chrome.png" class="icon">
-						<h3><?php TR(COEX_CHROME_MODULE); ?></h3>
-						<div class="decr-mod"><?php TR(COEX_CHROME_MODULE_DESCRIPTION); ?></div>
+						<h3><?php TR(FORENSICTOOL_CHROME_MODULE); ?></h3>
+						<div class="decr-mod"><?php TR(FORENSICTOOL_CHROME_MODULE_DESCRIPTION); ?></div>
 					</div>
 					<div class="module">
 						<img src="images/plugins/imagesverifier.png" class="icon">
-						<h3><?php TR(COEX_IMAGEVERIFIER_MODULE); ?></h3>
-						<div class="decr-mod"><?php TR(COEX_IMAGEVERIFIER_MODULE_DESCRIPTION); ?></div>
+						<h3><?php TR(FORENSICTOOL_IMAGEVERIFIER_MODULE); ?></h3>
+						<div class="decr-mod"><?php TR(FORENSICTOOL_IMAGEVERIFIER_MODULE_DESCRIPTION); ?></div>
 					</div>
 					<div class="module">
 						<img src="images/plugins/searchprogram.png" class="icon">
-						<h3><?php TR(COEX_SEARCHPROGRAM_MODULE); ?></h3>
-						<div class="decr-mod"><?php TR(COEX_SEARCHPROGRAM_MODULE_DESCRIPTION); ?></div>
+						<h3><?php TR(FORENSICTOOL_SEARCHPROGRAM_MODULE); ?></h3>
+						<div class="decr-mod"><?php TR(FORENSICTOOL_SEARCHPROGRAM_MODULE_DESCRIPTION); ?></div>
 					</div>
 					<div class="module">
 						<img src="images/plugins/outlook.png" class="icon">
-						<h3><?php TR(COEX_OUTLOOK_MODULE); ?></h3>
-						<div class="decr-mod"><?php TR(COEX_OUTLOOK_MODULE_DESCRIPTION); ?></div>
+						<h3><?php TR(FORENSICTOOL_OUTLOOK_MODULE); ?></h3>
+						<div class="decr-mod"><?php TR(FORENSICTOOL_OUTLOOK_MODULE_DESCRIPTION); ?></div>
 					</div>
 					<div class="module">
 						<img src="images/plugins/pidgin.png" class="icon">
-						<h3><?php TR(COEX_PIDGIN_MODULE); ?></h3>
-						<div class="decr-mod"><?php TR(COEX_PIDGIN_MODULE_DESCRIPTION); ?></div>
+						<h3><?php TR(FORENSICTOOL_PIDGIN_MODULE); ?></h3>
+						<div class="decr-mod"><?php TR(FORENSICTOOL_PIDGIN_MODULE_DESCRIPTION); ?></div>
 					</div>
 					<div class="module">
 						<img src="images/plugins/icq.png" class="icon">
-						<h3><?php TR(COEX_ICQ_MODULE); ?></h3>
-						<div class="decr-mod"><?php TR(COEX_ICQ_MODULE_DESCRIPTION); ?></div>
+						<h3><?php TR(FORENSICTOOL_ICQ_MODULE); ?></h3>
+						<div class="decr-mod"><?php TR(FORENSICTOOL_ICQ_MODULE_DESCRIPTION); ?></div>
 					</div>
 					<div class="module">
 						<img src="images/plugins/systemlog.png" class="icon">
-						<h3><?php TR(COEX_SYSTEMLOG_MODULE); ?></h3>
-						<div class="decr-mod"><?php TR(COEX_SYSTEMLOG_MODULE_DESCRIPTION); ?></div>
+						<h3><?php TR(FORENSICTOOL_SYSTEMLOG_MODULE); ?></h3>
+						<div class="decr-mod"><?php TR(FORENSICTOOL_SYSTEMLOG_MODULE_DESCRIPTION); ?></div>
 					</div>
 					<div class="module">
 						<img src="images/plugins/firefox.png" class="icon">
-						<h3><?php TR(COEX_FIREFOX_MODULE); ?></h3>
-						<div class="decr-mod"><?php TR(COEX_FIREFOX_MODULE_DESCRIPTION); ?></div>
+						<h3><?php TR(FORENSICTOOL_FIREFOX_MODULE); ?></h3>
+						<div class="decr-mod"><?php TR(FORENSICTOOL_FIREFOX_MODULE_DESCRIPTION); ?></div>
 					</div>
 					<div class="module">
 						<img src="images/plugins/searcharchivies.png" class="icon">
-						<h3><?php TR(COEX_ARCHIVE_MODULE); ?></h3>
-						<div class="decr-mod"><?php TR(COEX_ARCHIVE_MODULE_DESCRIPTION); ?></div>
+						<h3><?php TR(FORENSICTOOL_ARCHIVE_MODULE); ?></h3>
+						<div class="decr-mod"><?php TR(FORENSICTOOL_ARCHIVE_MODULE_DESCRIPTION); ?></div>
 					</div>					
 					<div class="module">
 						<img src="images/plugins/skype.png" class="icon">
-						<h3><?php TR(COEX_SKYPE_MODULE); ?></h3>
-						<div class="decr-mod"><?php TR(COEX_SKYPE_MODULE_DESCRIPTION); ?></div>
+						<h3><?php TR(FORENSICTOOL_SKYPE_MODULE); ?></h3>
+						<div class="decr-mod"><?php TR(FORENSICTOOL_SKYPE_MODULE_DESCRIPTION); ?></div>
 					</div>
 					<div class="module">
 						<img src="images/plugins/thunderbird.png" class="icon">
-						<h3><?php TR(COEX_THUNDERBIRD_MODULE); ?></h3>
-						<div class="decr-mod"><?php TR(COEX_THUNDERBIRD_MODULE_DESCRIPTION); ?></div>
+						<h3><?php TR(FORENSICTOOL_THUNDERBIRD_MODULE); ?></h3>
+						<div class="decr-mod"><?php TR(FORENSICTOOL_THUNDERBIRD_MODULE_DESCRIPTION); ?></div>
 					</div>					
 					<div class="module">
 						<img src="images/plugins/viber.png" class="icon">
-						<h3><?php TR(COEX_VIBER_MODULE); ?></h3>
-						<div class="decr-mod"><?php TR(COEX_VIBER_MODULE_DESCRIPTION); ?></div>
+						<h3><?php TR(FORENSICTOOL_VIBER_MODULE); ?></h3>
+						<div class="decr-mod"><?php TR(FORENSICTOOL_VIBER_MODULE_DESCRIPTION); ?></div>
 					</div>
 					<div class="module">
 						<img src="images/plugins/searchgitrepo.png" class="icon">
-						<h3><?php TR(COEX_SEARCH_GIT_REPO_MODULE); ?></h3>
-						<div class="decr-mod"><?php TR(COEX_SEARCH_GIT_REPO_MODULE_DESCRIPTION); ?></div>
+						<h3><?php TR(FORENSICTOOL_SEARCH_GIT_REPO_MODULE); ?></h3>
+						<div class="decr-mod"><?php TR(FORENSICTOOL_SEARCH_GIT_REPO_MODULE_DESCRIPTION); ?></div>
 					</div>
 				</div>			
 			</div>
@@ -129,7 +129,7 @@
 					<div class="module-name"><?php TR(CLONE_AND_BUILD); ?></div>
 					<div class="module-download">
 						<ul>
-							<li><a target="_blank" href="https://github.com/tusur-coex/coex">https://github.com/tusur-coex/coex</a></li>
+							<li><a target="_blank" href="https://github.com/forensictool/forensictool-core">https://github.com/forensictool/forensictool-core</a></li>
 						</ul>
 					</div>
 				</div>
@@ -141,7 +141,7 @@
 			<div class="sect-block">
 				<h2><?php TR(ARCHITECTURE_OF_SYSTEM); ?></h2>
 				<div class="big-table">
-					<div class="bft_coex">Coex</div>
+					<div class="bft_forensictool">ForensicTool</div>
 					<div class="bft_system"><?php TR(ARCHITECTURE_SYSTEM_OF_PLUGINS); ?></div>
 					<div class="bft_analys"><?php TR(ARCHITECTURE_DATA_ANALISIS); ?></div>
 					<div class="bft_module"><?php TR(ARCHITECTURE_MODUL_N); ?> 1</div>
@@ -176,7 +176,7 @@ VK.Widgets.Group("vk_groups", {mode: 2, width: "800", height: "400"}, 109777900)
 					<div class="credits">
 						<?php TR(CONTACTS_DESCRIPTION); ?>
 						<br/>
-						<a href="https://vk.com/coex_su">VK</a> <a href="mailto:fox.user.3@gmail.com">E-Mail</a>
+						<a href="https://vk.com/FORENSICTOOL_su">VK</a> <a href="mailto:fox.user.3@gmail.com">E-Mail</a>
 					</div>
 				</div>
 				<div class="block">

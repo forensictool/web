@@ -4,58 +4,58 @@
 
 $ditribute = array(
 	array(
-		"name" => "coex",
+		"name" => "forensictool",
 		"version" => "v0.2.*",
-		"description" => "Full package of coex-software",
+		"description" => "Full package of forensictool-software",
 		"sources" => "Not builded"
 	),
 	array(
-		"name" => "coex-cli",
+		"name" => "forensictool-cli",
 		"version" => "v0.2.*",
 		"description" => "The Console Application for run all tasks",
-		"sources" => "https://github.com/tusur-coex/coex-core"
+		"sources" => "https://github.com/tusur-forensictool/forensictool-core"
 	),
 	array(
-		"name" => "libcoex-plugin-detect-ubuntu",
+		"name" => "libforensictool-plugin-detect-ubuntu",
 		"description" => "The plugin for detect Ubuntu OS",
 		"version" => "v0.2.*",
-		"sources" => "https://github.com/tusur-coex/coex-plugin-detect-ubuntu"
+		"sources" => "https://github.com/tusur-forensictool/forensictool-plugin-detect-ubuntu"
 	),
 	array(
-		"name" => "coex-skype",
+		"name" => "forensictool-skype",
 		"description" => "The Console Application. Collect a list of contacts, users correspondence, information about calls and chats.",
 		"version" => "v0.2.*",
-		"sources" => "https://github.com/tusur-coex/coex-plugin-task-skype"
+		"sources" => "https://github.com/tusur-forensictool/forensictool-plugin-task-skype"
 	),
 	array(
-		"name" => "libcoex-plugin-task-skype",
+		"name" => "libforensictool-plugin-task-skype",
 		"description" => "Collect a list of contacts, users correspondence, information about calls and chats.",
 		"version" => "v0.2.*",
-		"sources" => "https://github.com/tusur-coex/coex-plugin-task-skype"
+		"sources" => "https://github.com/tusur-forensictool/forensictool-plugin-task-skype"
 	),
 	array(
-		"name" => "coex-searchgitrepo",
+		"name" => "forensictool-searchgitrepo",
 		"description" => "The Console Application for search git repository in file system",
 		"version" => "v0.2.*",
-		"sources" => "https://github.com/tusur-coex/coex-plugin-task-searchgitrepo"
+		"sources" => "https://github.com/tusur-forensictool/forensictool-plugin-task-searchgitrepo"
 	),
 	array(
-		"name" => "libcoex-plugin-task-searchgitrepo",
+		"name" => "libforensictool-plugin-task-searchgitrepo",
 		"description" => "Plugin for search git repository in file system",
 		"version" => "v0.2.*",
-		"sources" => "https://github.com/tusur-coex/coex-plugin-task-searchgitrepo"
+		"sources" => "https://github.com/tusur-forensictool/forensictool-plugin-task-searchgitrepo"
 	),
 	array(
-		"name" => "coex-icq",
+		"name" => "forensictool-icq",
 		"description" => "The Console Application. Collect a list of user messenger contacts.",
 		"version" => "v0.2.*",
-		"sources" => "https://github.com/tusur-coex/coex-plugin-task-icq"
+		"sources" => "https://github.com/tusur-forensictool/forensictool-plugin-task-icq"
 	),
 	array(
-		"name" => "libcoex-plugin-task-icq",
+		"name" => "libforensictool-plugin-task-icq",
 		"description" => "Collect a list of user messenger contacts.",
 		"version" => "v0.2.*",
-		"sources" => "https://github.com/tusur-coex/coex-plugin-task-icq"
+		"sources" => "https://github.com/tusur-forensictool/forensictool-plugin-task-icq"
 	),
 );
 

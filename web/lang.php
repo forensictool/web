@@ -7,9 +7,9 @@ $langs = array(
 );
 if(isset($_GET['lang']) && isset($langs[$_GET['lang']])){
 	$lang = $_GET['lang'];
-	setcookie('coex_lang', $lang);
-} else if (isset($_COOKIE['coex_lang'])){
-	$tmp = $_COOKIE['coex_lang'];
+	setcookie('forensictool_lang', $lang);
+} else if (isset($_COOKIE['forensictool_lang'])){
+	$tmp = $_COOKIE['forensictool_lang'];
 	if(isset($langs[$tmp])){
 		$lang = $tmp;
 	}
