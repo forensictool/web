@@ -18,6 +18,7 @@
 				<a href="#capa" class="site-part"><?php TR(MENU_CAPABILITIES); ?></a>
 				<a href="#install" class="site-part"><?php TR(MENU_INSTALL); ?></a>
 				<a href="#consist" class="site-part"><?php TR(MENU_ARCHITECTURE); ?></a>
+				<a href="#LICENSE" class="site-part"><?php TR(MENU_LICENSE); ?></a>
 				<a href="#about" class="site-part"><?php TR(MENU_ABOUT); ?></a>
 				<select class="combobox-lang" onchange="window.location.href = '?lang=' + this.value;">
 					<?php
@@ -153,48 +154,45 @@
 				<div class="description">  <?php TR(ARCHITECTURE_DESCRIPTION); ?> </div>
 			</div>
 		</section>
-        <section id="news">
-            <div class="news-block">
-                <h2><?php TR(NEWS_OF_PROJECT); ?></h2>
-                <div class="news-list">
-<script type="text/javascript" src="//vk.com/js/api/openapi.js?121"></script>
-
-<!-- VK Widget -->
-<div id="vk_groups"></div>
-<script type="text/javascript">
-VK.Widgets.Group("vk_groups", {mode: 2, width: "800", height: "400"}, 109777900);
-</script>
-                </div>
-            </div>
-        </section>
+		<section id="LICENSE">
+			<div class="sect-block">
+				<h2><?php TR(LICENSE_AGREEMENT); ?></h2>
+<?php TR(MIT_LICENSE); ?>
+			</div>
+		</section>
+		<section id="about" class="contacts">
+			<div class="sect-block">
+				<h2><?php TR(CONTACTS); ?></h2>
+				<h4><?php TR(ABOUT_US); ?></h4>
+				<?php TR(MADE_IN); ?>
+				
+				<?php TR(CONTACTS_DESCRIPTION); ?><br>
+				<h4>VK</h4>
+				<a href="https://vk.com/forensictool">https://vk.com/forensictool</a><br>
+				
+				<h4>E-Mail</h4>
+				<a href="mailto:contact@forensictool.su">contact@forensictool.su</a><br>
+				
+				<!-- <h4><?php TR(YOUR_QUESTION); ?></h4>
+				<form method="POST">
+					<center>
+						
+						<input name="email" placeholder="Your E-Mail" type="text"><br>
+						<textarea name="questiontext" placeholder="Your question"></textarea><br>
+						<input name="name" placeholder="Your Name" type="text"><br>
+						<input type="submit" value="Send">
+					</center>
+				</form> -->
+				<h4><?php TR(DENIAL_OF_RESPONSIBILITY); ?></h4>
+				<?php TR(DENIAL_OF_RESPONSIBILITY_DESCRIPTION); ?>
+				
+			</div>
+		</section>
 	</main>
 	<footer class="site-footer" id="about">
 		<div class="sect-block">
-			<div class="flex">
-				<div class="block">
-					<h4><?php TR(CONTACTS); ?></h4>
-					<div class="credits">
-						<?php TR(CONTACTS_DESCRIPTION); ?>
-						<br/>
-						<a href="https://vk.com/FORENSICTOOL_su">VK</a> <a href="mailto:fox.user.3@gmail.com">E-Mail</a>
-					</div>
-				</div>
-				<div class="block">
-					<h4><?php TR(ABOUT_US); ?></h4>
-					<div class="credits">
-						<?php TR(MADE_IN); ?>
-					</div>
-				</div>
-				<div class="block">
-					<h4><?php TR(DENIAL_OF_RESPONSIBILITY); ?></h4>
-					<div class="credits">
-						<?php TR(DENIAL_OF_RESPONSIBILITY_DESCRIPTION); ?>
-					</div>
-				</div>
-			</div>
 			<div class="copyrights flex">
-				<a href=""> <?php TR(LICENSE_AGREEMENT); ?></a>
-				<span>© 2012-2016, keva</span>
+				<span>Copyright © 2016 ForensicTool</span>
 			</div>
 		</div>
 	</footer>

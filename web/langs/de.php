@@ -3,6 +3,7 @@
 define("HEADER_TITLE", "ForensicTool");
 define("MENU_CAPABILITIES", "Einsatzmöglichkeiten");
 define("MENU_INSTALL", "Installation");
+define("MENU_LICENSE", "Lizenz");
 define("MENU_ARCHITECTURE", "Architektur");
 define("MENU_ABOUT", "Über uns");
 define("ARCHITECTURE_OF_SYSTEM", "Systemarchitektur");
@@ -49,3 +50,14 @@ define("MADE_IN", "Hergestellt in der Abteilung KIBEVS TUSUR der GAP-Gruppe.");
 define("DENIAL_OF_RESPONSIBILITY", "Urheberrecht");
 define("DENIAL_OF_RESPONSIBILITY_DESCRIPTION", "Die verwendeten Medien/Bilder stammen aus dem Internet. Sie sind Eigentum ihrer rechtmäßigen Eigentümer.");//no garanty for law-security
 define("LICENSE_AGREEMENT", "Lizenzvereinbarung");
+
+define("MIT_LICENSE", "The MIT License (MIT)<br>
+<br>
+Copyright (c) 2016 ForensicTool<br>
+<br>
+Hiermit wird unentgeltlich jeder Person, die eine Kopie der Software und der zugehörigen Dokumentationen (die \"Software\") erhält, die Erlaubnis erteilt, sie uneingeschränkt zu nutzen, inklusive und ohne Ausnahme mit dem Recht, sie zu verwenden, zu kopieren, zu verändern, zusammenzufügen, zu veröffentlichen, zu verbreiten, zu unterlizenzieren und/oder zu verkaufen, und Personen, denen diese Software überlassen wird, diese Rechte zu verschaffen, unter den folgenden Bedingungen:<br>
+<br>
+Der obige Urheberrechtsvermerk und dieser Erlaubnisvermerk sind in allen Kopien oder Teilkopien der Software beizulegen.<br>
+<br>
+DIE SOFTWARE WIRD OHNE JEDE AUSDRÜCKLICHE ODER IMPLIZIERTE GARANTIE BEREITGESTELLT, EINSCHLIEẞLICH DER GARANTIE ZUR BENUTZUNG FÜR DEN VORGESEHENEN ODER EINEM BESTIMMTEN ZWECK SOWIE JEGLICHER RECHTSVERLETZUNG, JEDOCH NICHT DARAUF BESCHRÄNKT. IN KEINEM FALL SIND DIE AUTOREN ODER COPYRIGHTINHABER FÜR JEGLICHEN SCHADEN ODER SONSTIGE ANSPRÜCHE HAFTBAR ZU MACHEN, OB INFOLGE DER ERFÜLLUNG EINES VERTRAGES, EINES DELIKTES ODER ANDERS IM ZUSAMMENHANG MIT DER SOFTWARE ODER SONSTIGER VERWENDUNG DER SOFTWARE ENTSTANDEN.");
+define("YOUR_QUESTION", "Задайте вопрос");

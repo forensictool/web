@@ -205,7 +205,7 @@ nav{ margin: 0; padding: 0; }
 
 .site-menu{
 	display: flex;
-    width: 60%;
+    width: 90%;
     min-width: 320px;
 	
 	flex-direction: row;
@@ -271,6 +271,11 @@ section{
 #capa, #consist{
 	background-color: #f2f2f6;
 }
+
+.contacts{
+	background-color: #f2f2f6;
+}
+
 .modules{ 
 
 }
@@ -348,7 +353,7 @@ div#vk_groups {
 .site-footer .copyrights{ width: 100%; padding: 10px; }
 .site-footer .copyrights a { color: #6F6F6F; display: block; text-decoration: none; }
 .site-footer .copyrights a:hover{ color: #ffffeb; }
-.site-footer .copyrights span{ display: block; color: #6F6F6F; }
+.site-footer .copyrights span{ display: block; }
 
 .site-footer .flex .block{
 	width: calc(100%/3);

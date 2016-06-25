@@ -5,57 +5,57 @@
 $ditribute = array(
 	array(
 		"name" => "forensictool",
-		"version" => "v0.2.*",
-		"description" => "Full package of forensictool-software",
+		"version" => "v0.3.*",
+		"description" => "Full package of forensictool",
 		"sources" => "Not builded"
 	),
 	array(
 		"name" => "forensictool-cli",
-		"version" => "v0.2.*",
+		"version" => "v0.3.*",
 		"description" => "The Console Application for run all tasks",
-		"sources" => "https://github.com/tusur-forensictool/forensictool-core"
+		"sources" => "https://github.com/forensictool/forensictool-core"
 	),
 	array(
-		"name" => "libforensictool-plugin-detect-ubuntu",
+		"name" => "libforensictool-plugin-detectubuntu",
 		"description" => "The plugin for detect Ubuntu OS",
-		"version" => "v0.2.*",
-		"sources" => "https://github.com/tusur-forensictool/forensictool-plugin-detect-ubuntu"
+		"version" => "v0.3.*",
+		"sources" => "https://github.com/forensictool/forensictool-plugin-detectubuntu"
 	),
 	array(
 		"name" => "forensictool-skype",
 		"description" => "The Console Application. Collect a list of contacts, users correspondence, information about calls and chats.",
-		"version" => "v0.2.*",
-		"sources" => "https://github.com/tusur-forensictool/forensictool-plugin-task-skype"
+		"version" => "v0.3.*",
+		"sources" => "https://github.com/forensictool/forensictool-plugin-skype"
 	),
 	array(
-		"name" => "libforensictool-plugin-task-skype",
+		"name" => "libforensictool-plugin-skype",
 		"description" => "Collect a list of contacts, users correspondence, information about calls and chats.",
-		"version" => "v0.2.*",
-		"sources" => "https://github.com/tusur-forensictool/forensictool-plugin-task-skype"
+		"version" => "v0.3.*",
+		"sources" => "https://github.com/forensictool/forensictool-plugin-skype"
 	),
 	array(
-		"name" => "forensictool-searchgitrepo",
+		"name" => "forensictool-git",
 		"description" => "The Console Application for search git repository in file system",
-		"version" => "v0.2.*",
-		"sources" => "https://github.com/tusur-forensictool/forensictool-plugin-task-searchgitrepo"
+		"version" => "v0.3.*",
+		"sources" => "https://github.com/forensictool/forensictool-plugin-task-searchgitrepo"
 	),
 	array(
 		"name" => "libforensictool-plugin-task-searchgitrepo",
 		"description" => "Plugin for search git repository in file system",
-		"version" => "v0.2.*",
-		"sources" => "https://github.com/tusur-forensictool/forensictool-plugin-task-searchgitrepo"
+		"version" => "v0.3.*",
+		"sources" => "https://github.com/forensictool/forensictool-plugin-git"
 	),
 	array(
 		"name" => "forensictool-icq",
 		"description" => "The Console Application. Collect a list of user messenger contacts.",
-		"version" => "v0.2.*",
-		"sources" => "https://github.com/tusur-forensictool/forensictool-plugin-task-icq"
+		"version" => "v0.3.*",
+		"sources" => "https://github.com/forensictool/forensictool-plugin-icq"
 	),
 	array(
-		"name" => "libforensictool-plugin-task-icq",
+		"name" => "libforensictool-plugin-icq",
 		"description" => "Collect a list of user messenger contacts.",
-		"version" => "v0.2.*",
-		"sources" => "https://github.com/tusur-forensictool/forensictool-plugin-task-icq"
+		"version" => "v0.3.*",
+		"sources" => "https://github.com/forensictool/forensictool-plugin-icq"
 	),
 );
 
