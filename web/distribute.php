@@ -37,7 +37,7 @@ $ditribute = array(
 		"name" => "forensictool-git",
 		"description" => "The Console Application for search git repository in file system",
 		"version" => "v0.3.*",
-		"sources" => "https://github.com/forensictool/forensictool-plugin-task-searchgitrepo"
+		"sources" => "https://github.com/forensictool/forensictool-plugin-git"
 	),
 	array(
 		"name" => "libforensictool-plugin-task-searchgitrepo",
