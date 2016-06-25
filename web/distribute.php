@@ -40,7 +40,7 @@ $ditribute = array(
 		"sources" => "https://github.com/forensictool/forensictool-plugin-git"
 	),
 	array(
-		"name" => "libforensictool-plugin-task-searchgitrepo",
+		"name" => "libforensictool-plugin-git",
 		"description" => "Plugin for search git repository in file system",
 		"version" => "v0.3.*",
 		"sources" => "https://github.com/forensictool/forensictool-plugin-git"
