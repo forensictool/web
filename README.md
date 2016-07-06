@@ -11,6 +11,7 @@ Official project website
 	$ cd ~/develop/forensictool 
 	$ git clone git@github.com:forensictool/web.git
 	$ sudo ln -s `pwd`/web/web /var/www/html/forensictool
+	$ sudo /etc/init.d/apache2 restart
 
 ### Debian
 	
@@ -20,3 +21,4 @@ Official project website
 	$ cd ~/develop/forensictool
 	$ git clone git@github.com:forensictool/web.git
 	$ sudo ln -s `pwd`/web/web /var/www/html/forensictool
+	$ sudo /etc/init.d/apache2 restart
