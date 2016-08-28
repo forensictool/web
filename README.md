@@ -4,9 +4,9 @@ Official project website
 
 ## Installation for developing
 
-### Ubuntu
+### Ubuntu 16.04
 
-	$ sudo apt install apache2 php5 mysql-server mysql-client git-core
+	$ sudo apt install apache2 php mysql-server mysql-client git-core
 	$ mkdir -p ~/develop/forensictool
 	$ cd ~/develop/forensictool 
 	$ git clone git@github.com:forensictool/web.git
